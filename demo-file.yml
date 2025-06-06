@@ -1,0 +1,13 @@
+login:
+  method: 'POST'
+  endpoint: '/abc/auth/token'
+  query_params: ''
+  headers: { 'Content-Type': 'application/json' }
+  payload: { 'username': '<username>', 'password': '<password>' }
+
+pro_login:
+  method: 'GET'
+  endpoint: 'apisv3/security-service/utilities/getSNLOAuthTokenInfo'
+  query_params: '?_=23424243'
+  headers: { 'Content-Type': 'application/json' }
+  payload: None
