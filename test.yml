@@ -1,0 +1,11 @@
+pro_groups:
+  method: "GET"
+  endpoint: "/apisv3/federation/"
+  query_params:
+    operationName: "ghgdhh"
+    variables:
+      keyInstns: <company_id>
+    extensions:
+      persistedQuery:
+        version: 1
+        sha256Hash: "sdn54y45nnfdj5u56"
